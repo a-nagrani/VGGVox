@@ -17,27 +17,22 @@ be found [here](http://www.vlfeat.org/matconvnet/).
 ### Installing
 
 The easiest way to use the code in this repo is with the `vl_contrib` package 
-manager.  To install, run:
+manager.  To install, follow these steps: 
+
+1. Install and compile matconvnet by following instructions [here](http://www.vlfeat.org/matconvnet/install/). 
+
+2. Run:
 
 ```
 vl_contrib install VGGVox
 vl_contrib setup VGGVox
 ```
-
-### Demo
-
-There are two short demo scripts.  These demos run directly on `.wav` files:
+3. You can then run the demo scripts provided to import and test the models. There are two short demo scripts, for both Identification and Verification. These demos demonstrate how to evaluate the models directly on `.wav` audio files:
 
 ```
 demo_vggvox_identif
+demo_vggvox_verif
 ```
-which will produce an output like:
-
-![input-spectrogram](figs/demo_fig.png)
-
-
-## Authors
-
 
 ## Citation
 If you use this code then please cite:
