@@ -7,3 +7,4 @@ function setup_VGGVox()
   vl_setupnn ;
   root = fileparts(mfilename('fullpath')) ;
   addpath(root, [root '/matlab']) ;
+  addpath(genpath('mfcc'))
