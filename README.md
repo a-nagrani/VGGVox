@@ -6,10 +6,34 @@ This directory contains code to import and evaluate the Speaker Identification a
 A. Nagrani, J. S. Chung, A. Zisserman, VoxCeleb: a large-scale speaker identification dataset, INTERSPEECH, 2017
 ``` 
 
+The dataset can be downloaded directly from [here](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/).
+
 ### Prerequisites
+
+To use the models first install the MatConvNet framework.  Instructions can 
+be found [here](http://www.vlfeat.org/matconvnet/).
 
 
 ### Installing
+
+The easiest way to use the code in this repo is with the `vl_contrib` package 
+manager.  To install, run:
+
+```
+vl_contrib install VGGVox
+vl_contrib setup VGGVox
+```
+
+### Demo
+
+There are two short demo scripts.  These demos run directly on `.wav` files:
+
+```
+demo_vggvox_identif
+```
+which will produce an output like:
+
+![input-spectrogram](figs/demo_fig.png)
 
 
 ## Authors

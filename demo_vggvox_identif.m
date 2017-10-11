@@ -30,7 +30,7 @@ if isempty(ok)
 else
     opts.modelPath = paths{ok} ;
 end
-load(opts.modelPath);
+tmp = load(opts.modelPath); net = tmp.net ;
 
 buckets.pool 	= [2 5 8 11 14 17 20 23 27 30];
 buckets.width 	= [100 200 300 400 500 600 700 800 900 1000];
@@ -54,6 +54,8 @@ prob 		= sum(prob,2);
 [score,class]    = max(prob);
 
 % Print score and class for the speech segment
+figure(1) ;
 fprintf('Score:%d\nClass:%d\n',score, class);
-
-
+imagesc(inp) ; name = 'always dave' ;
+title(sprintf('predicted identity: %s (%.2f) input spectogram', name, score)) ;
+saveas(1, 'figs/demo_fig.png') ;
