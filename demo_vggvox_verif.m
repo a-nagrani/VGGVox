@@ -41,9 +41,9 @@ for i = 1:numel(names)
 end
 net.addLayer('dist', dagnn.PDist('p',2), {'x1_s1', 'x1_s2'}, 'distance');
 
-% Evaluate network either on CPU or GPU and set up network to be in test
+% Evaluate network on GPU and set up network to be in test
 % mode
-if ~isempty(opts.gpu), net.move('gpu'); end
+net.move('gpu');
 net.conserveMemory = 0;
 net.mode = 'test' ;
 

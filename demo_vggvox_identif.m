@@ -5,7 +5,7 @@ function demo_vggvox_identif(varargin)
 % downloads the VGGVox model and
 % prints the class and score of a test speech segment
 
-addpath(genpath('mfcc'))
+
 opts.modelPath = '' ;
 opts.gpu = 3;
 opts.dataDir = 'testfiles/ident';
@@ -54,8 +54,4 @@ prob 		= sum(prob,2);
 [score,class]    = max(prob);
 
 % Print score and class for the speech segment
-figure(1) ;
 fprintf('Score:%d\nClass:%d\n',score, class);
-imagesc(inp) ; name = 'always dave' ;
-title(sprintf('predicted identity: %s (%.2f) input spectogram', name, score)) ;
-saveas(1, 'figs/demo_fig.png') ;
