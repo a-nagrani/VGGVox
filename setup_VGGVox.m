@@ -4,5 +4,6 @@ function setup_VGGVox()
 %
 % Copyright (C) 2017 Arsha Nagrani
 
+  vl_setupnn ;
   root = fileparts(mfilename('fullpath')) ;
   addpath(root, [root '/matlab']) ;
