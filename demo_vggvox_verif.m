@@ -58,8 +58,8 @@ inp2 = test_getinput(inpPath2, net.meta, buckets);
 s1 = size(inp1,2);
 s2 = size(inp2,2);
 
-p1 = buckets.pool(find(s1==buckets.width));
-p2 = buckets.pool(find(s2==buckets.width));
+p1 = buckets.pool(s1==buckets.width);
+p2 = buckets.pool(s2==buckets.width);
 
 net.layers(22).block.poolSize=[1 p1];
 net.layers(47).block.poolSize=[1 p2];

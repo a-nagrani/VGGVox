@@ -45,7 +45,7 @@ net.conserveMemory = false;
 % Load input and do a forward pass
 inp = test_getinput(inpPath,net.meta,buckets);
 s1 = size(inp,2);
-p1 = buckets.pool(find(s1==buckets.width));
+p1 = buckets.pool(s1==buckets.width);
 net.layers{16}.pool=[1 p1];
 
 res = vl_simplenn(net,inp);
