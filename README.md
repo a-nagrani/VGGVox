@@ -7,7 +7,6 @@ A. Nagrani, J. S. Chung, A. Zisserman, VoxCeleb: a large-scale speaker identific
 INTERSPEECH, 2017
 ``` 
 
-The dataset can be downloaded directly from [here](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/).
 
 ### Prerequisites
 
