@@ -3,7 +3,8 @@
 This directory contains code to import and evaluate the Speaker Identification and Verification models pretrained on the VoxCeleb dataset as described in the [paper](https://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf): 
 
 ``` 
-A. Nagrani, J. S. Chung, A. Zisserman, VoxCeleb: a large-scale speaker identification dataset, INTERSPEECH, 2017
+A. Nagrani, J. S. Chung, A. Zisserman, VoxCeleb: a large-scale speaker identification dataset, 
+INTERSPEECH, 2017
 ``` 
 
 The dataset can be downloaded directly from [here](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/).
