@@ -1,4 +1,4 @@
-# VGGVox
+# VGGVox Models for Speaker Identification and Verification
 
 This directory contains code to import and evaluate the Speaker Identification and Verification models pretrained on the VoxCeleb dataset as described in the [paper](https://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf): 
 
