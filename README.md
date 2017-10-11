@@ -33,6 +33,9 @@ vl_contrib setup VGGVox
 demo_vggvox_identif
 demo_vggvox_verif
 ```
+ 
+## Dataset 
+These models have been pretrained on the VoxCeleb dataset. VoxCeleb contains over 100,000 utterances for 1,251 celebrities, extracted from videos uploaded to YouTube. The dataset is gender balanced, with 55% of the speakers male. The speakers span a wide range of different ethnicities, accents, professions and ages. The dataset can be downloaded directly from [here](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/).
 
 ## Citation
 If you use this code then please cite:
@@ -45,5 +48,3 @@ If you use this code then please cite:
   year         = "2017",
 }
 ```
-## References
-A. Nagrani, J. S. Chung, A. Zisserman, VoxCeleb: a large-scale speaker identification dataset, INTERSPEECH, 2017
