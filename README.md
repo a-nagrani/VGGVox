@@ -44,11 +44,11 @@ demo_vggvox_verif_voxceleb2
 ## Models 
 The matconvnet models can also be downloaded directly using the following links: 
 
-VGGVox [model](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/models/vggvox_ident_net.mat) trained for identification on VoxCeleb1 
+[Model](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/models/vggvox_ident_net.mat) trained for identification on VoxCeleb1 
 
-VGGVox [model](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/models/vggvox_ver_net.mat) trained for verification on VoxCeleb1 
+[Model](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/models/vggvox_ver_net.mat) trained for verification on VoxCeleb1 
 
-VGGVox [model](http://www.robots.ox.ac.uk/~vgg/data/voxceleb2/ver_net.mat) trained for verification on VoxCeleb2 (this is a resnet based model). 
+[Model](http://www.robots.ox.ac.uk/~vgg/data/voxceleb2/ver_net.mat) trained for verification on VoxCeleb2 (this is a resnet based model)
 
 
 ## Datasets 
