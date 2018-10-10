@@ -1,6 +1,6 @@
 # VGGVox models for speaker identification and verification
 
-This directory contains code to import and evaluate the speaker identification and verification models pretrained on the [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/) datasets (1 & 2) as described in the following papers ([1](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) and [2](http://www.robots.ox.ac.uk/~vgg/publications/2018/Chung18a/chung18a.pdf)):
+This directory contains code to import and evaluate the speaker identification and verification models pretrained on the [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)(1 & 2) datasets  as described in the following papers ([1](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) and [2](http://www.robots.ox.ac.uk/~vgg/publications/2018/Chung18a/chung18a.pdf)):
 
 ``` 
 [1] A. Nagrani*, J. S. Chung*, A. Zisserman, VoxCeleb: a large-scale speaker identification dataset, 
