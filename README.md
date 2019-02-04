@@ -73,6 +73,3 @@ If you use this code then please cite:
   year         = "2018",
 }
 ```
-## Fixes 
-
-Note - since we take only the magnitude of the spectrogram, the matlab functions here to extract spectrograms provide mirrored spectrograms (along the freq axis). This has been fixed in later models where we chop the spectrograms in half before feeding them into the network.  
